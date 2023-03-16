@@ -1,0 +1,99 @@
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>KEC Faculty Management system</title>
+	<link rel="stylesheet" type="text/css" href="admin.css">
+    <link rel="stylesheet" href="apply.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="sidebar">
+	<h1 class="logo">KEC<span>-Faculty Leave Management System</span></h1>
+	<i class="fa fa-chevron-left menu-icon"></i>
+	<ul class="sidenav">
+		<li class="active"><i class="fa fa-home"></i><a href="#"> Dashboard
+			<span class="span1"><i class="fa fa-angle-right"></i></span>
+
+			
+		</a>
+			
+		</li>
+
+		<!-- <ul class="dropdown">
+				<li><a href="#"><span class="dot"></span> Analytics</a></li>
+				<li><a href="#"><span class="dot"></span> CRM</a></li>
+				<li><a href="#"><span class="dot"></span> eCommerce</a></li>
+			</ul> -->
+
+		<li><i class="fa fa-file"></i><a href="a.html">Admin</a></li>
+		<p class="app" style="color: black;">App Ans Pages</p>
+		<li><i class="fa fa-calendar"></i><a href="index.html"> Home</a></li>
+		<li><i class="fa fa-clone"></i><a href="login.html"> Login</a></li>
+        <li><i class="fa fa-file-text"></i><a href="#">Contacts</a></li>
+		<li><i class="fa fa-shield"></i><a href="apply.html"> Permission For Absence</a></li>
+		
+		<li><i class="fa fa-lock"></i><a href="index1.html"> Check Status</a></li>
+		
+	</ul>
+</div>
+
+<main>
+		
+		
+    <h3>Apply for Leave</h3>
+    <p>To apply for leave, please fill out the following form:</p>
+    
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="department">Department:</label>
+        <select id="dept-type" name="dept-type">
+            <option value="ai">Artificial Intelligence</option>
+            <option value="auto">Automobile Engineering</option>
+            <option value="it">Information Technology</option>
+            <option value="cse">Computer Science and Engineering</option>
+            <option value="ece">Electronics and Communication Engineering</option>
+            <option value="eee">Electrical and Electronic Engineering</option>
+            <option value="ei">Electronics and Instrumentation Engineering</option>
+            <option value="csd">Computer System and Design</option>
+            <option value="ft">Food Technology</option>
+            <option value="ch">Chemical Engineering</option>
+            <option value="mech">Mechanical Engineering</option>
+            <option value="mts">Mechatronics Engineering</option>
+            <option value="civil">Civil Engineering</option>
+
+        </select><br><br>
+        <!-- <input type="text" id="department" name="department"><br><br> -->
+        
+        <label for="leave-type">Leave Type:</label>
+        <select id="leave-type" name="leave-type">
+            <option value="sick-leave">Sick Leave</option>
+            <option value="vacation-leave">Vacation Leave</option>
+            <option value="personal-leave">Personal Leave</option>
+        </select><br><br>
+        
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" name="start-date"><br><br>
+        
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date" name="end-date"><br><br>
+        
+        <label for="reason">Reason:</label><br>
+        <textarea id="reason" name="reason" rows="5" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    
+    
+    
+</main>
+
+<footer>
+    <p>Contact us: kecfaculty.leave.management@example.com</p>
+</footer>
+</body>
+</html>
